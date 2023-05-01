@@ -1,0 +1,1 @@
+var t={logEvent(e,a,n,p=null){window.dataLayer.push({appEventCategory:e,appEventAction:a,appEventLabel:n,sessionId:p}),window.dataLayer.push({event:"appEvent"})},logPage(e,a,n=null){window.dataLayer.push({screenPath:e,screenName:a,sessionId:n}),window.dataLayer.push({event:"appScreenView"})}};export{t as g};
